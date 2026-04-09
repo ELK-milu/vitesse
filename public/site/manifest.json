@@ -1,0 +1,23 @@
+{
+  "title": "首页",
+  "template": "home-hero",
+  "path": "/",
+  "contentPath": "/site",
+  "children": [
+    {
+      "title": "公司介绍",
+      "template": "company-intro",
+      "path": "/公司介绍",
+      "contentPath": "/site/dictionary/公司介绍",
+      "children": [
+        {
+          "title": "经销商",
+          "template": "dealer-list",
+          "path": "/公司介绍/经销商",
+          "contentPath": "/site/dictionary/公司介绍/dictionary/经销商",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
